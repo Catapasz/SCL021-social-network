@@ -1,0 +1,380 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Jacques Francois";
+  font-size: 18px;
+}
+
+footer {
+  background-color: rgb(222, 199, 163);
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  font-size: small;
+  padding: 0.3em 0;
+  bottom: 0%;
+}
+.root {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+h2 {
+  font-size: medium;
+}
+
+.bg-login {
+  background-image: url("./img/Grande.jpeg");
+  position: relative;
+  width: 390px;
+  height: 894px;
+  background-size: cover;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: 0% 10%;
+}
+
+.bg-green {
+  width: 270px;
+  height: 500px;
+  left: 252px;
+  top: 497px;
+  background: rgba(214, 240, 236, 0.9);
+  mix-blend-mode: normal;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+.logo {
+  width: 270px;
+  margin-top: 15px;
+  margin-bottom: 0%;
+  padding: 10px;
+}
+
+.subtitulo {
+  margin-bottom: 20px;
+}
+
+#email {
+  background: #e68e8e;
+  margin-bottom: 2px;
+  border-radius: 40px;
+}
+
+#password,
+#googleButton,
+#logInUser {
+  background: #e68e8e;
+  border-radius: 40px;
+}
+
+#registerEmail,
+#createUser,
+#createPassword,
+#confirmPassword {
+  background: #e68e8e;
+  margin-bottom: 2px;
+  border-radius: 60px;
+}
+
+#createAccount {
+  background: #e68e8e;
+  border-radius: 40px;
+}
+
+.wall {
+  min-height: 100vh;
+  width: 100%;
+  background-size: cover;
+  padding: 16px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  overflow: scroll;
+}
+
+.bgTop {
+  /*display: inline-block;*/
+  width: 100%;
+  height: 120px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  background-image: url("./img/Grande.jpeg");
+}
+
+.bgLeFestin {
+  width: 50%;
+  /*height: 70%;*/
+  align-items: center;
+  margin-left: 22%;
+  margin-top: 9px;
+  padding: 10px;
+  background: rgba(214, 240, 236, 0.9);
+}
+
+.logoFeed {
+  width: 110%;
+  height: 60%;
+  margin-left: 0%;
+}
+
+.title {
+  font-family: "Jacques Francois";
+}
+
+.user {
+  background-color: rgba(253, 222, 173, 0.55);
+  margin-top: 10em;
+  margin-left: 1.5em;
+  width: 90%;
+  height: 10%;
+  position: absolute;
+  border: solid 1px #3d274e;
+  border-radius: 5px;
+  font-size: small;
+  align-items: center;
+  background-position: 0% 10%;
+}
+
+.bgPost {
+  background-color: rgba(253, 222, 173, 0.55);
+  margin-top: 10em;
+  margin-left: 1.5em;
+  width: 90%;
+  height: 20%;
+  position: absolute;
+  border: solid 1px #3d274e;
+  border-radius: 5px;
+  font-size: small;
+  align-items: center;
+  background-position: 0% 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cPost {
+  background-color: rgba(253, 222, 173, 0.55);
+  margin-top: 75%;
+  margin-bottom: 30%;
+  margin-left: 5%;
+  width: 90%;
+  position: absolute;
+  border: solid 1px #3d274e;
+  border-radius: 5px;
+  font-size: small;
+  align-items: center;
+  background-position: 0% 10%;
+}
+
+.post {
+  width: 80%;
+  height: 30%;
+  border-radius: 5%;
+  position: absolute;
+  margin-top: 10%;
+}
+
+.postBtn {
+  background: #e68e8e;
+  margin-top: 17%;
+  border-radius: 5px;
+  font-family: "Jacques Francois";
+  cursor: pointer;
+  box-shadow: 0 5px #999;
+  justify-items: end;
+}
+
+.postBtn :hover {
+  background-color: #d8b8d7;
+}
+
+.postBtn:active {
+  background-color: #e35b46;
+  box-shadow: 0 5px rgb(54, 50, 50);
+  transform: translateY(4px);
+}
+
+.logOutLogo {
+  position: absolute;
+  margin-bottom: 80%;
+  width: 13%;
+  margin-left: 320px;
+  cursor: pointer;
+  margin-top: 13%;
+}
+
+.logOutLogo:hover,
+.logOutLogo:active {
+  width: 14%;
+  filter: drop-shadow(0 5px rgb(54, 50, 50));
+}
+
+.pContainer {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  overflow: auto;
+}
+.photoAndUserName {
+  display: flex;
+  width: 35%;
+}
+.userPhoto {
+  width: 20%;
+  border-radius: 50%;
+  margin: 5%;
+  position: absolute;
+  float: left;
+}
+.userNamePost {
+  font-family: "Jacques Francois";
+  font-size: smaller;
+  margin-top: 75%;
+  margin-left: 10%;
+}
+
+.textAndEmoji {
+  width: 60%;
+}
+
+.divText {
+  background-color: white;
+  margin-top: 10%;
+  border-radius: 5%;
+  padding: 1%;
+  font-family: "Jacques Francois";
+  font-size: larger;
+  position: relative;
+}
+
+.likeImg {
+  margin-left: 85%;
+  margin-top: -8%;
+  width: 15%;
+  height: 20%;
+  position: relative;
+}
+
+.likeImg :hover {
+  background-color: #d8b8d7;
+}
+
+.likeImg:active {
+  box-shadow: 0 5px rgba(253, 222, 173, 0.55);
+  transform: translateY(4px);
+}
+.likeNum {
+  margin-left: 155px;
+}
+
+/************RESPONSIVE**********/
+@media only screen and (min-width: 990px) {
+  .pContainer {
+    height: 500px;
+  }
+  .bg-login {
+    width: 100%;
+  }
+  .wall {
+    width: 100%;
+    margin: 0%;
+  }
+  .cPost {
+    margin-top: 500px;
+  }
+
+  .bgLeFestin {
+    text-align: center;
+    margin-top: 40px;
+  }
+  .bgTop {
+    width: 100%;
+    height: 200px;
+  }
+  .logoFeed {
+    text-align: center;
+    width: 40%;
+    height: 50%;
+    justify-content: center;
+    grid-template-rows: 15% 85%;
+    margin-left: 0%;
+  }
+  .photoAndUserName {
+    display: flex;
+    width: 35%;
+  }
+  .logOutLogo {
+    width: 7%;
+    margin-left: 85%;
+    margin-top: 40px;
+  }
+  .likeNum {
+    margin-left: 550px;
+    font-size: 40px;
+  }
+  .bgPost {
+    align-items: center;
+    margin-top: 230px;
+    margin-left: 64px;
+    width: 90%;
+    height: 250px;
+  }
+  .postBtn {
+    margin-top: 120px;
+    width: 90px;
+    height: 50px;
+    font-size: medium;
+  }
+  .title {
+    margin-top: 5px;
+    font-size: 26px;
+  }
+  .userPhoto {
+    width: 15%;
+    border-radius: 30% 30 30 30;
+    margin: 5%;
+    position: absolute;
+    float: left;
+    margin-left: 150px;
+    margin-top: 100px;
+  }
+  .userNamePost {
+    margin-left: 170px;
+    font-size: 20px;
+  }
+  .post {
+    height: 100px;
+    margin-top: 50px;
+  }
+  .publication {
+    margin: 5px;
+    font-size: 25px;
+  }
+
+  .likeImg {
+    margin-top: -30px;
+    width: 55px;
+    height: 80px;
+  }
+  footer {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    font-size: medium;
+    padding: 0.3em 0;
+    bottom: 0%;
+  }
+}
