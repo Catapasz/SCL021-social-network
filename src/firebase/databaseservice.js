@@ -75,23 +75,5 @@ async function printPost(containerPost) {
   });
 }
 
-// guardar Post
-/*export const savePost = (description) => {
-  let userName;
-  if (auth.currentUser.displayName == null) {
-    let separateEmail = auth.currentUser.email.split('@');
-    userName = separateEmail[0];
-  } else {
-    userName = auth.currentUser.displayName;
-  }
-  addDoc(collection(db, 'Post'), {
-    uid: auth.currentUser.uid,
-    name: userName,
-    description: description,
-    likes:[],
-    likesCounter: 0,
-    datepost: Timestamp.fromDate(new Date()),
-  });
-};*/
 
 export { createPost, printPost };

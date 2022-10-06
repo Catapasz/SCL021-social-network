@@ -28,16 +28,6 @@ function wall() {
   logo.className = "logoFeed";
   bglogo.appendChild(logo);
 
-  //Div contenedeor de nombre usuario y boton salir.
-  //const userName = document.createElement("div");
- // userName.className = "user";
-  //const welcomeText = document.createElement("h2");
-  //welcomeText.className = "welcomeText";
- // welcomeText.innerHTML = `<span class="welcomeText">Bienvenid@</span> ${auth?.currentUser?.displayName}`;
-
-
-  //postsWall.appendChild(userName); 
-  // userName.appendChild(welcomeText);
 
   //Fondo para contener los post amarillo
   const bgPost = document.createElement("div");
@@ -70,10 +60,6 @@ function wall() {
   //Aparecen los posts impresos cuando se abre sesión
   printPost(containerPost);
 
-  //contenedor hijo de cpost donde se imprimen las publicaciones.
-  //const publicationContainer = document.createElement("div");
-  //publicationContainer.setAttribute("id","pcontainer");
-  //publicationContainer.appendChild(containerPost);
 
   //Funcion para publicar posts en el muro
   postBtn.addEventListener("click", (event) => {
@@ -81,7 +67,7 @@ function wall() {
     if (createPost(valuePost)) {
       post.value = "";
     } else if (createPost(valuePost) == null) {
-      alert.innerHTML = "¡Olvidaste ingresar tu post!";
+      alert = "¡Olvidaste ingresar tu post!";
     }
     return false;
   });

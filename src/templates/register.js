@@ -14,7 +14,7 @@ function register() {
             <input type='password' id='createPassword' placeholder='Contraseña' />
             <input type='password' id='confirmPassword' placeholder='Confirma tu Contraseña' />
             <p id='alertRegister'></p>
-            <button class='createAccount' id='createAccount'> Crear cuenta <a href='#' id='register' class='btn-register'></a></button>
+            <button class='createAccount' id='createAccount'> Crear cuenta </button>
            
         </div>
     </div>`;
@@ -23,7 +23,7 @@ function register() {
   const container = document.createElement("div");
   container.id = "contenedorR";
   container.innerHTML = html;
-  const linkSignIn = container.querySelector("#register");
+  const linkSignIn = container.querySelector("#createAccount");
   linkSignIn.addEventListener("click", (event) => {
     event.preventDefault();
     navigate("/");

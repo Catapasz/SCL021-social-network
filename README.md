@@ -14,6 +14,11 @@ La red social **Le Festín** es una red creada para amantes de la cocina.
  
 [![Captura-de-Pantalla-2022-10-04-a-la-s-09-00-21.png](https://i.postimg.cc/8Cbd4Kjn/Captura-de-Pantalla-2022-10-04-a-la-s-09-00-21.png)](https://postimg.cc/5H6FNm5w)
  
+ [![Captura-de-Pantalla-2022-10-06-a-la-s-08-41-53.png](https://i.postimg.cc/BbZyCW9q/Captura-de-Pantalla-2022-10-06-a-la-s-08-41-53.png)](https://postimg.cc/7GcmxWZc)
+
+[![Captura-de-Pantalla-2022-10-06-a-la-s-08-42-51.png](https://i.postimg.cc/YqhD2zty/Captura-de-Pantalla-2022-10-06-a-la-s-08-42-51.png)](https://postimg.cc/0b10cmMp)
+
+
 ## Investigación UX:
  
 - Los principales usuarios de este proyecto son tod@s aquell@s que esten interesad@s en compartir tips de cocina, preguntar sobre algunas recetas, compartir lo que estan cocinando, etc.
